@@ -10,7 +10,7 @@ twine  upload   dist/*          ## 上传到pypi
 
 
 ## 清除不需要的文件
-rm -rf dist/   2>/dev/null
-rm -rf egg-info/ 2>/dev/null
+rm -rf dist/               2>/dev/null
+rm -rf fdmutils.egg-info/  2>/dev/null
 
 
